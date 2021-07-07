@@ -12,7 +12,7 @@ applications:
     name: pet-battle-suite-stage
     enabled: true
     destination: labs-ci-cd
-    source: https://github.com/petbattle/ubiquitous-journey.git
+    source: https://github.com/tersian/ubiquitous-journey.git
     source_path: applications/deployment
     source_ref: main
     sync_policy_automated: true
