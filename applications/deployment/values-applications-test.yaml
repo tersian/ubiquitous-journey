@@ -121,7 +121,7 @@ applications:
       fullnameOverride: pet-battle
       image_repository: quay.io
       image_name: pet-battle
-      image_namespace: petbattle
+      image_namespace: ben_silverman
       image_version: "1.3.1"
       config_map: '{ "catsUrl": "https://pet-battle-api-labs-test.apps.openshift-4712-hbzcs.do500.redhatlabs.dev", "tournamentsUrl": "https://pet-battle-tournament-labs-test.apps.openshift-4712-hbzcs.do500.redhatlabs.dev", "matomoUrl": "https://matomo-labs-ci-cd.apps.openshift-4712-hbzcs.do500.redhatlabs.dev/", "keycloak": { "url": "https://keycloak-labs-test.apps.openshift-4712-hbzcs.do500.redhatlabs.dev/auth/", "realm": "pbrealm", "clientId": "pbclient", "redirectUri": "https://pet-battle-labs-test.apps.openshift-4712-hbzcs.do500.redhatlabs.dev/*", "enableLogging": true } }'
     project:
