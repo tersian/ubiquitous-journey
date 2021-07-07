@@ -78,9 +78,9 @@ applications:
           - name: ARGOCD_CONFIG_REPO
             value: github.com/tersian/ubiquitous-journey.git
           - name: GITHUB_ACCOUNT
-            value: 'tersian'
+            value: 'petbattle'
           - name: GITHUB_ORG
-            value: 'false'
+            value: 'true'
       persistence: false
       source_secrets:
         - name: nexus-password
