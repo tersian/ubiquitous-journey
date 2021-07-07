@@ -277,7 +277,7 @@ applications:
     no_helm: true
   # Allure
   - name: allure
-    enabled: false
+    enabled: true
     source: https://github.com/eformat/allure
     source_path: "chart"
     source_ref: "main"
