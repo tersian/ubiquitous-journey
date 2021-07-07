@@ -75,6 +75,8 @@ applications:
             value: 'false'
           - name: JENKINS_OPTS
             value: '--sessionTimeout=180'
+          - name: ARGOCD_CONFIG_REPO
+            value: github.com/tersian/ubiquitous-journey.git
           - name: GITHUB_ACCOUNT
             value: 'tersian'
           - name: GITHUB_ORG
