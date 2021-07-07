@@ -80,7 +80,7 @@ applications:
           - name: QUAY_ACCOUNT
             value: 'tersian'
           - name: GITHUB_ACCOUNT
-            value: 'petbattle'QUAY_ACCOUNT
+            value: 'petbattle'
           - name: GITHUB_ORG
             value: 'true'
       persistence: false
