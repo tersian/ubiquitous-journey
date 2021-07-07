@@ -121,7 +121,7 @@ applications:
           pactBrokerBasicAuthPassword: thisisdefinitelynotmypassword
   # Sonarqube
   - name: sonarqube
-    enabled: false
+    enabled: true
     source: https://github.com/redhat-cop/helm-charts.git
     source_path: "charts/sonarqube"
     source_ref: "sonarqube-0.0.15"
