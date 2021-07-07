@@ -152,7 +152,7 @@ applications:
           enabled: false
   # CodeReady Workspaces
   - name: crw
-    enabled: true
+    enabled: false
     destination: crw
     source: https://github.com/rht-labs/refactored-adventure
     source_path: crw/base
