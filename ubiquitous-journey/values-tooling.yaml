@@ -77,8 +77,10 @@ applications:
             value: '--sessionTimeout=180'
           - name: ARGOCD_CONFIG_REPO
             value: github.com/tersian/ubiquitous-journey.git
+          - name: QUAY_ACCOUNT
+            value: 'tersian'
           - name: GITHUB_ACCOUNT
-            value: 'petbattle'
+            value: 'petbattle'QUAY_ACCOUNT
           - name: GITHUB_ORG
             value: 'true'
       persistence: false
