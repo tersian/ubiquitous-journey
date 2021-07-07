@@ -78,7 +78,7 @@ applications:
           - name: ARGOCD_CONFIG_REPO
             value: github.com/tersian/ubiquitous-journey.git
           - name: QUAY_ACCOUNT
-            value: 'tersian'
+            value: 'ben_silverman'
           - name: GITHUB_ACCOUNT
             value: 'petbattle'
           - name: GITHUB_ORG
