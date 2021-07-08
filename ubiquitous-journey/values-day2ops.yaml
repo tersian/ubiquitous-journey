@@ -63,7 +63,7 @@ applications:
   # Pet Battle Alerting
   - name: petbattle-alerts-dev
     destination: labs-dev
-    enabled: false
+    enabled: true
     source: https://github.com/tersian/ubiquitous-journey.git
     source_path: applications/alerting/chart
     sync_policy: *sync_policy_true
@@ -74,7 +74,7 @@ applications:
           severity: info
   - name: petbattle-alerts-test
     destination: labs-test
-    enabled: false
+    enabled: true
     source: https://github.com/tersian/ubiquitous-journey.git
     source_path: applications/alerting/chart
     sync_policy: *sync_policy_true
@@ -85,7 +85,7 @@ applications:
           severity: warning
   - name: petbattle-alerts-staging
     destination: labs-staging
-    enabled: false
+    enabled: true
     source: https://github.com/tersian/ubiquitous-journey.git
     source_path: applications/alerting/chart
     sync_policy: *sync_policy_true
