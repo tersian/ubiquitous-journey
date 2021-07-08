@@ -53,7 +53,7 @@ applications:
     no_helm: true
   # User Workload Monitoring
   - name: user-workload-monitoring
-    enabled: false
+    enabled: true
     destination: openshift-monitoring
     source: https://github.com/rht-labs/refactored-adventure.git
     source_path: user-workload-monitoring/base
