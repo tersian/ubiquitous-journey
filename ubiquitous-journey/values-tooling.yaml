@@ -270,7 +270,7 @@ applications:
         - /spec/template/spec/containers/1/image
    # Istio basic mesh
   - name: istio
-    enabled: false
+    enabled: true
     destination: openshift-operators
     source: https://github.com/rht-labs/refactored-adventure
     source_path: istio/istio-system
